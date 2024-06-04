@@ -1,0 +1,16 @@
+python-dotenv
+numpy
+pandas
+matplotlib
+scipy
+jupyterlab~=4.0
+jupyter-ai
+openai
+langchain-openai
+langchain-google-genai
+langchain-anthropic
+pillow
+huggingface-hub
+ipywidgets
+jupyterlab-git
+pydrive

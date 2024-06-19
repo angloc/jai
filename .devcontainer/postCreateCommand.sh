@@ -1,6 +1,7 @@
 pipenv install
 echo "alias sl='/workspaces/jai/start-lab.sh'" >>~/.bashrc
 echo 'set -a; . /workspaces/jai/.env; PYTHONPATH="$PWD/source:$PYTHONPATH"; set +a;' >>~/.bashrc
+echo 'pipenv shell' >>~/.bashrc
 if [ ! -f ".env" ]; then
   # Create an empty .env file
   touch ".env"

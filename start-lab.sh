@@ -1,2 +1,2 @@
-set -a; . .env; set +a; jupyter lab \
-     --notebook-dir=$PWD/workspace
+( PYTHONPATH="$PWD/source:$PYTHONPATH" jupyter lab \
+  --notebook-dir="$PWD/notebooks" )

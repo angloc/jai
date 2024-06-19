@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv="*"
+jupyterlab="~=4.0"
+jupyterlab-git="*"
+jupyter-ai="*"
+openai="*"
+langchain-openai="*"
+langchain-google-genai="*"
+#langchain-anthropic="*"
+llama_index="*"
+llama-index-embeddings-langchain="*"
+pillow="*"
+huggingface-hub="*"
+ipywidgets="*"
+pydrive="*"
+pyvis="*"
+Ipython="*"
+pypdf="*"
+numpy="*"
+pandas="*"
+matplotlib="*"
+scipy="*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
